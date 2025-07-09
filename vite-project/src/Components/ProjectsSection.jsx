@@ -1,11 +1,11 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
-
 const projects = [
   {
     id: 1,
     title: "professional-to-do-list",
-    description: "professional-to-do-list is a comprehensive task management application designed to help users organize their tasks efficiently. It features a user-friendly interface, real-time updates, and seamless integration with various productivity tools.",
-    image: "/projects/project1.png",
+    description:
+      "professional-to-do-list is a comprehensive task management application designed to help users organize their tasks efficiently. It features a user-friendly interface, real-time updates, and seamless integration with various productivity tools.",
+    image: `${import.meta.env.BASE_URL}projects/project1.png`,
     tags: ["javaScript", "TailwindCSS", "HTML"],
     demoUrl: "https://joseph-cef.github.io/professional-to-do-list/",
     githubUrl: "https://github.com/joseph-cef/professional-to-do-list",
@@ -13,50 +13,56 @@ const projects = [
   {
     id: 2,
     title: "HadEncrypt - Text Encryption Tool",
-    description: "A lightweight web app for text encryption and decryption with a custom key",
-    image: "/projects/project02.png",
+    description:
+      "A lightweight web app for text encryption and decryption with a custom key",
+    image: `${import.meta.env.BASE_URL}projects/project02.png`,
     tags: ["javaScript", "CSS", "HTML"],
     demoUrl: "https://joseph-cef.github.io/HadEncrypt/",
-    githubUrl:  "https://github.com/joseph-cef/HadEncrypt",
+    githubUrl: "https://github.com/joseph-cef/HadEncrypt",
   },
   {
     id: 3,
     title: "Luxury Scents - E-commerce Website",
-    description: " Luxury Scents is a modern e-commerce website that offers a wide range of high-end perfumes and fragrances. The site features a sleek design, intuitive navigation, and a secure checkout process, providing an exceptional shopping experience for fragrance enthusiasts.",
-    image: "/projects/project03.png",
+    description:
+      "Luxury Scents is a modern e-commerce website that offers a wide range of high-end perfumes and fragrances. The site features a sleek design, intuitive navigation, and a secure checkout process, providing an exceptional shopping experience for fragrance enthusiasts.",
+    image: `${import.meta.env.BASE_URL}projects/project03.png`,
     tags: ["javaScript", "CSS", "HTML"],
-    demoUrl:  "https://joseph-cef.github.io/Luxury-Scents/",
+    demoUrl: "https://joseph-cef.github.io/Luxury-Scents/",
     githubUrl: "https://github.com/joseph-cef/Luxury-Scents",
   },
   {
     id: 4,
     title: "TechZone - E-Commerce Website",
-    description: " TechZone is a cutting-edge e-commerce platform that specializes in the latest technology products. With a sleek design and user-friendly interface, TechZone offers a seamless shopping experience, featuring a wide range of gadgets, electronics, and accessories.",
-    image: "/projects/project04.png",
+    description:
+      "TechZone is a cutting-edge e-commerce platform that specializes in the latest technology products. With a sleek design and user-friendly interface, TechZone offers a seamless shopping experience, featuring a wide range of gadgets, electronics, and accessories.",
+    image: `${import.meta.env.BASE_URL}projects/project04.png`,
     tags: ["javaScript", "CSS", "HTML"],
     demoUrl: "https://joseph-cef.github.io/TechZone---E-Commerce-Platform/",
-    githubUrl: "https://github.com/joseph-cef/TechZone---E-Commerce-Platform",
+    githubUrl:
+      "https://github.com/joseph-cef/TechZone---E-Commerce-Platform",
   },
   {
     id: 5,
     title: "CS - Learning Platform",
-    description: "CS - An interactive learning platform designed for first-year Computer Science students, offering structured lessons, exercises.",
-    image: "/projects/project05.png",
+    description:
+      "CS - An interactive learning platform designed for first-year Computer Science students, offering structured lessons, exercises.",
+    image: `${import.meta.env.BASE_URL}projects/project05.png`,
     tags: ["javaScript", "CSS", "HTML"],
-    demoUrl: "https://joseph-cef.github.io/CS-Year-1-LMD-Learning-Platform/",
-    githubUrl: "https://github.com/joseph-cef/CS-Year-1-LMD-Learning-Platform",
+    demoUrl:
+      "https://joseph-cef.github.io/CS-Year-1-LMD-Learning-Platform/",
+    githubUrl:
+      "https://github.com/joseph-cef/CS-Year-1-LMD-Learning-Platform",
   },
- 
   {
     id: 6,
     title: "CefEncrypt - Text Encryption Tool",
-    description: " A lightweight web app for text encryption and decryption with a custom key.",
-    image: "/projects/project06.png",
+    description:
+      "A lightweight web app for text encryption and decryption with a custom key.",
+    image: `${import.meta.env.BASE_URL}projects/project06.png`,
     tags: ["javaScript", "CSS", "HTML"],
-    demoUrl:"https://joseph-cef.github.io/josEncrypt/",
+    demoUrl: "https://joseph-cef.github.io/josEncrypt/",
     githubUrl: "https://github.com/joseph-cef/josEncrypt",
   },
-
 ];
 
 export const ProjectsSection = () => {
