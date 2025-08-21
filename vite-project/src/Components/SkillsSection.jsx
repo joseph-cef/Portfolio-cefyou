@@ -6,15 +6,16 @@ const skills = [
   { name: "HTML/CSS", level: 95, category: "frontend" },
   { name: "JavaScript", level: 70, category: "frontend" },
   { name: "React", level: 60, category: "frontend" },
-  { name: "TypeScript", level: 20, category: "frontend" },
+  { name: "TypeScript", level: 50, category: "frontend" },
   { name: "Tailwind CSS", level: 70, category: "frontend" },
+  { name: "bootstrap ", level: 70, category: "frontend" },
   // { name: "Next.js", level: 0, category: "frontend" },
 
   // Backend
-  // { name: "Node.js", level: 0, category: "backend" },
-  // { name: "Express", level: 0, category: "backend" },
+  { name: "Python", level: 70, category: "backend" },
+  { name: "Django", level: 60, category: "backend" },
+  { name: "PostgreSQL", level: 70, category: "backend" },
   // { name: "MongoDB", level: 0, category: "backend" },
-  // { name: "PostgreSQL", level: 0, category: "backend" },
   // { name: "GraphQL", level: 0, category: "backend" },
 
   // Tools
@@ -22,9 +23,17 @@ const skills = [
   // { name: "Docker", level: 0, category: "tools" },
   { name: "Figma", level: 40, category: "tools" },
   { name: "VS Code", level: 95, category: "tools" },
+  
+  
+  { name: "C", level: 80, category: "Languages" },
+  { name: "JAVA", level: 70, category: "Languages" },
+  { name: "JAVASCRIPT", level: 70, category: "Languages" },
+  { name: "TYPESCRIPT", level: 50, category: "Languages" },
+  { name: "PYTHON", level: 70, category: "Languages" },
+  { name: "C#", level: 30, category: "Languages" },
 ];
 
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = ["all", "frontend", "backend", "tools" , "Languages"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
